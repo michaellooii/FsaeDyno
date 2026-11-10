@@ -47,6 +47,7 @@ To open the model directly, run `open_system('FsaeDynoFull')` or double-click `F
 | **Simulation Data Inspector** | Logged signals: `PDC_DUT_meas`, `PDC_DUT_state`, `PDC_LOAD_meas`, `PDC_LOAD_state`, `TS_On`, and `ShaftSpeed`. |
 
 `*_meas` format: `[Vbatt, Vdc, Ibatt]`
+
 `*_state` format: `[Precharge relay, AIR+, AIR-, Discharge relay, Inverter enable]`
 
 If you run the simulation manually (`out = sim('FsaeDynoFull')`), you can plot the results using:
